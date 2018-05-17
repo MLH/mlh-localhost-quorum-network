@@ -34,13 +34,9 @@ RUN cd quorum >/dev/null && git checkout tags/v2.0.1 && make all && cp build/bin
 COPY src quorum-network
 WORKDIR /quorum-network
 
-EXPOSE 22000
-EXPOSE 22001
-EXPOSE 22002
-
 # setup/run raft network
 RUN ./scripts/init.sh
-CMD ["quorum-network/scripts/start.sh"]
+CMD ["/quorum-network/scripts/start.sh"]
 
 # done!
 RUN echo "✨ The Quorum docker instance has been provisioned."

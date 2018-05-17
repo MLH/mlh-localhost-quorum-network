@@ -41,10 +41,3 @@ cp permissioned-nodes.json qdata/dd4/
 cp keys/key4 qdata/dd4/keystore
 cp raft/nodekey4 qdata/dd4/geth/nodekey
 geth --datadir qdata/dd4 init genesis.json
-
-echo "[*] Configuring node 5"
-mkdir -p qdata/dd5/{keystore,geth}
-cp permissioned-nodes.json qdata/dd5/static-nodes.json
-cp keys/key5 qdata/dd5/keystore
-cp raft/nodekey5 qdata/dd5/geth/nodekey
-geth --datadir qdata/dd5 init genesis.json

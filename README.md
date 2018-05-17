@@ -37,7 +37,7 @@ $ cd mlh-localhost-quorum-network
 This example configures several Quorum nodes, each with their own transaction manager. To get your Quorum network up and running, you need to run the Docker instance which initializes the node accounts and keystores and launch the nodes:
 
 ```sh
-$ docker build -t quorum-image .
+$ docker build -t quorum-image .    # should take 5 or so minutes
 $ docker run -ti -name quorum-container -p 22000:22000 -p 22001:22001 -p 22002:22002 quorum-image
 ```
 
@@ -47,7 +47,7 @@ You can access the terminal of the Docker instance for additional control and ac
 
 ```sh
 $ docker run -ti --name quorum-container quorum bash
-root@4211511c3968:/quorum-network#    # docker terminal
+root@4211511c3968:/quorum-network#      # docker terminal
 root@4211511c3968:/quorum-network# ./raft-init.sh
 root@4211511c3968:/quorum-network# ./raft-start.sh
 ```
@@ -59,7 +59,7 @@ To stop the network you can run the `./stop.sh` script.
 You can use the `docker push` command to publish or update an image of the quorum network on Docker Hub for later use.
 
 ```sh
-$ docker login      # login with your docker account
+$ docker login    # login with your docker account
 $ docker push <USERNAME>/quorum-network
 ```
 

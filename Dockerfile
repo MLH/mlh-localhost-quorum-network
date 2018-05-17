@@ -35,8 +35,8 @@ COPY src quorum-network
 WORKDIR /quorum-network
 
 # setup/run raft network
-RUN ./scripts/init.sh
-CMD ["/quorum-network/scripts/start.sh"]
+RUN ./init.sh
+CMD ["/quorum-network/start.sh"]
 
 # done!
 RUN echo "✨ The Quorum docker instance has been provisioned."

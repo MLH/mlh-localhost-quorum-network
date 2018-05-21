@@ -1,12 +1,12 @@
-# MLH Localhost: Intro to Ethereum apps Powered by Quorum
+# MLH Localhost &ndash; Blockchain Basics: An Introduction to J.P. Morgan's Quorum
 
-This repository contains the code for an example Quorum network for the **MLH Localhost: Intro to Ethereum apps Powered by Quorum workshop**.
+This repository contains the code for an example Quorum network for the **MLH Localhost &ndash; Blockchain Basics: An Introduction to J.P. Morgan's Quorum**.
 
-This project is **one of two parts** required for the **Intro to Ethereum** workshop. This repository contains the code to run the [Quorum Network](#quorum-network-docs) which runs the Ethereum network layer. The second part needed is [CryptoHackers](https://github.com/MLH/mlh-localhost-cryptohackers) which runs the application layer.
+This project is **one of two parts** required for the **Quorum** workshop. This repository contains the code to run the [Quorum Network](#quorum-network-docs) which runs the Ethereum network layer. The second part needed is [TechMarketplace](https://github.com/MLH/mlh-localhost-tech-marketplace) which runs the application layer.
 
-### CryptoHackers [[Docs](https://github.com/MLH/mlh-localhost-cryptohackers)]
+### TechMarketplace [[Docs](https://github.com/MLH/mlh-localhost-tech-marketplace)]
 
-CryptoHackers is an example application running on top of the Quorum network and allows users to buy and sell virtual hackathon gear. It demonstrates how to run an simple Ethereum application and how to write simple Smart Contracts that interact with the Ethereum-based network.
+TechMarketplace is an example application running on top of the Quorum network and allows users to buy and sell virtual hackathon gear. It demonstrates how to run an simple Ethereum application and how to write simple Smart Contracts that interact with the Ethereum-based network.
 
 ### Quorum Network [[Docs](https://github.com/MLH/mlh-localhost-quorum-network)]
 
@@ -14,7 +14,7 @@ CryptoHackers is an example application running on top of the Quorum network and
 
 We use Quorum as our Ethereum protocol in this project. We use a version of Quorum's [7nodes](https://github.com/jpmorganchase/quorum-examples/tree/master/examples/7nodes) example that runs several Quorum nodes in parallel using a virtual machine.
 
-**Important note** A Quorum network must be running locally in order for the CryptoHacker application to work. This project includes instructions on how to run the Quorum network locally.
+**Important note** A Quorum network must be running locally in order for the TechMarketplace application to work. This project includes instructions on how to run the Quorum network locally.
 
 ## Requirements
 

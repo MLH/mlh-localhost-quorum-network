@@ -28,7 +28,7 @@ We use Quorum as our Ethereum protocol in this project. We use a version of Quor
 ## Installation
 
 ```sh
-$ git clone git@github.com:MLH/mlh-localhost-quorum-network.git
+$ git clone https://github.com/MLH/mlh-localhost-quorum-network.git
 $ cd mlh-localhost-quorum-network
 ```
 
